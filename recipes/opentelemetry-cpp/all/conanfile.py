@@ -21,7 +21,8 @@ class OpenTelemetryCppConan(ConanFile):
         "opentelemetry-proto/0.11.0",
         "openssl/1.1.1l",
         "protobuf/3.17.1",
-        "thrift/0.14.2"
+        "thrift/0.14.2",
+        "prometheus-cpp/0.12.3"
     ]
     topics = ("opentelemetry", "telemetry", "tracing", "metrics", "logs")
     generators = "cmake", "cmake_find_package_multi"
